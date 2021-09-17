@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+#promo {
+  text-align: center;
+  padding: 40px;
+  background-size: cover;
+  background: url(../../assets/img/background.jpg);
+  margin-top: 50px;
+}
+
+@media (min-width: 300px) {
+  #promo {
+    padding: 18px;
+  }
+}
+
+#promo .jumbotron {
+  border-radius: 20px;
+  padding: 40px;
+  background-color: rgba(152,141,141,0.7);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  #promo .jumbotron {
+  }
+}
+
+.container.site-section {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.site-section h1 {
+  font-weight: normal;
+  font-size: 30px;
+  margin: 20px;
+}
+
+h2 {
+  padding-top: 20px;
+}
+
+#welcome p {
+  max-width: 800px;
+  font-size: 20px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+#swelcome .item i {
+  font-size: 35px;
+}
+
+#swelcome .item h2 {
+  font-size: 30px;
+}
+
+.dark-section {
+  background-color: #e1d0d0;
+}
+
+.nav-item {
+  font-size: 20px;
+}
+
+.navbar-brand {
+  font-size: 25px;
+}
+
+#logo {
+  max-height: 25px;
+  margin-right: 10px;
+  margin-top: 2px;
+  display: inline-block;
+}
+
+.item {
+  display: inline;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site-section {
+  overflow: hidden;
+}
+
